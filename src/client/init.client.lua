@@ -45,4 +45,4 @@ compost.MouseButton1Click:Connect(function()
     print("compost")
 end)
 
-local currentItem = "david"\
+local currentItem = "david"
