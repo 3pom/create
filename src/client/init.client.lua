@@ -45,9 +45,4 @@ compost.MouseButton1Click:Connect(function()
     print("compost")
 end)
 
-while task.wait(1) do
-    
-
-
-    
-end
+local currentItem = "david"
