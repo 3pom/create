@@ -45,9 +45,10 @@ compost.MouseButton1Click:Connect(function()
     print("compost")
 end)
 
-while task.wait(1) do
-    
+local currentItem = "david"
 
-
-    
+local function pickItem()
+    local randomCategory = junkList[math.random(1,#junkList)]
+    local randomItem = randomCategory[math.random(1,#randomCategory)]
+    currentItem = randomItem
 end
