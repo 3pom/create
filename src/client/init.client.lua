@@ -81,9 +81,10 @@ local function getResult(type)
 		result.TypeLabel.Text = "<b>TYPE: </b>" .. string.upper(currentType)
 		result.Visible = true
 	else
+        points -= 1
 		result.Status.Icon.Image = "rbxassetid://6031094677"
 		result.Status.Icon.ImageColor3 = Color3.fromRGB(255, 0, 0)
-		result.Status.PointLabel.Text = "0 POINTS"
+		result.Status.PointLabel.Text = "-1 POINTS"
 		result.Status.PointLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
 		result.ItemLabel.Text = "<b>ITEM: </b>" .. string.upper(currentItem.Name)
 		result.TypeLabel.Text = "<b>TYPE: </b>" .. string.upper(currentType)
